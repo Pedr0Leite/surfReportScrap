@@ -1,0 +1,29 @@
+{
+  "name": "surfreportscrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runApp": "node ./surfInfoApp.js",
+    "test": "mocha ./mochaTest/mocha_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pedr0Leite/surfReportScrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pedr0Leite/surfReportScrap/issues"
+  },
+  "homepage": "https://github.com/Pedr0Leite/surfReportScrap#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19",
+    "puppeteer": "^15.4.0"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "mocha": "^10.0.0"
+  }
+}
